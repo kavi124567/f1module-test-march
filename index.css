@@ -1,0 +1,189 @@
+*{
+    background:  #333333;;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.container{
+    border: 2px solid grey;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.left{ display: flex;
+    flex-flow: row wrap;
+
+}
+.box {
+    /* border: 1px solid blue; */
+    box-sizing: border-box;
+    border: 1px solid #B1A592;
+    border-radius: 50px;
+    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 29px;
+                    padding: 0 25px;
+}
+.right{
+    box-sizing: border-box;
+    border: 1px solid #B1A592;
+    border-radius: 50px;
+}
+.container1{
+   
+    position: absolute;
+width: 667px;
+height: 981px;
+left: 35px;
+top: 99px;
+background: #DFD6C5;
+border-radius: 30px;
+display: flex;
+flex-flow: column wrap;
+}
+.a{
+    position: absolute;
+width: 146px;
+height: 24px;
+left: 84px;
+top: 37px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 24px;
+
+color: #323025;
+
+}
+.photo{
+    
+position: absolute;
+width: 631px;
+height: 730px;
+left: 13px;
+top: 100px;
+
+background: url(C:\Users\dell\Documents\AJ-HTML\contest\images\image 2.png);
+border-radius: 20px;
+}
+{
+    position: absolute;
+width: 271px;
+height: 29px;
+left: 53px;
+top: 176px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+text-decoration-line: underline;
+
+color: #333333;
+
+}
+.base{
+    width: 133px;
+height: 29px;
+left: 57px;
+top: 1008px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+
+color: #333333;
+
+}
+
+
+
+
+
+
+.container2{
+   position: absolute;
+    width: 967px;
+    height: 356px;
+    left: 719px;
+    top: 99px;
+    
+    background: #8E886D;
+    border-radius: 30px;   
+    
+}
+.photo2{
+    position: absolute;
+    width: 523px;
+    height: 235px;
+    left:390px;
+    top: 50px;
+    
+    background: url(SC:\Users\dell\Documents\AJ-HTML\contest\images\image 3.png);
+    border-radius: 20px;
+}
+
+
+
+
+.container3{
+    
+    position: absolute;
+width: 405px;
+height: 597px;
+left: 729px;
+top: 480px;
+
+background: #916E58;
+border-radius: 30px;
+}
+
+
+
+.container4{
+    
+    position: absolute;
+width: 525px;
+height: 597px;
+left: 1161px;
+top: 480px;
+
+background: #B1A48E;
+border-radius: 30px;
+}
+.container2 > ul > li{
+    background: #8E886D;
+}
+.container3 > ul > li{
+    background: #916E58;
+}
+.container4 > ul > li{
+    background: #B1A48E;
+}
+.base{
+    background: #DFD6C5;
+}
+.base2{
+    background: #8E886D;
+}
+.base3{
+    background: #916E58;
+}
+.base4{
+    background: #B1A48E;
+}
